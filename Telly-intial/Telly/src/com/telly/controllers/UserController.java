@@ -31,7 +31,7 @@ public class UserController {
 	public String showLogout() {
 		return "loggedout";
 
-
+	}
 
 	@Autowired
 	UserService userService;
